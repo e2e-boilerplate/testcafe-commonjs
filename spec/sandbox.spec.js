@@ -1,16 +1,11 @@
-module.exports = {
-  before: (browser) => {
-    browser.url("https://e2e-boilerplate.github.io/sandbox/");
-  },
+const { Selector } = require("testcafe");
 
-  after: (browser) => {
-    browser.end();
-  },
+fixture`Sandbox`.page`https://e2e-boilerplate.github.io/sandbox/`;
 
-  "should be on Sandbox": (browser) => {
-    browser.assert.title("Sandbox");
-    browser.getText("css selector", "h1", (text) => {
-      browser.assert.strictEqual(text.value, "Sandbox");
-    });
-  },
-};
+test("should be on Sandbox", async (t) => {
+  await t
+    .expect(Selector("title").innerText)
+    .eql("Sandbox")
+    .expect(Selector("h1").innerText)
+    .eql("Sandbox");
+});

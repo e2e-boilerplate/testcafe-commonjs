@@ -1,25 +1,25 @@
 {
   "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
-    "url": "https://github.com/e2e-boilerplate/nightwatch-commonjs-assert/issues"
+    "url": "https://github.com/e2e-boilerplate/testcafe-commonjs/issues"
   },
   "dependencies": {
-    "chromedriver": "80.0.2",
-    "nightwatch": "1.3.5"
+    "testcafe": "^1.8.4"
   },
-  "description": "Nightwatch end-to-end test automation boilerplate. Using Commonjs and Assert.",
+  "description": "TestCafe end-to-end test automation boilerplate. Using Commonjs",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.11.0",
     "eslint-plugin-import": "2.20.2",
     "eslint-plugin-prettier": "3.1.3",
+    "eslint-plugin-testcafe": "^0.2.1",
     "husky": "4.2.5",
     "lint-staged": "10.2.2",
     "prettier": "2.0.4",
     "pretty-quick": "2.0.1"
   },
-  "homepage": "https://github.com/e2e-boilerplate/nightwatch-commonjs-assert#readme",
+  "homepage": "https://github.com/e2e-boilerplate/testcafe-commonjs#readme",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged --allow-empty"
@@ -33,7 +33,7 @@
     "e2e tests",
     "example",
     "integration test",
-    "nightwatch"
+    "testcafe"
   ],
   "license": "MIT",
   "lint-staged": {
@@ -44,12 +44,11 @@
   "name": "nightwatch-commonjs-assert",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/e2e-boilerplate/nightwatch-commonjs-assert.git"
+    "url": "git+https://github.com/e2e-boilerplate/testcafe-commonjs.git"
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx nightwatch",
-    "test:ci": "npx nightwatch -c nightwatch-ci.json"
+    "test": "npx testcafe chrome spec/sandbox.spec.js"
   },
   "version": "1.0.0"
 }
