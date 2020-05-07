@@ -1,4 +1,4 @@
-[![GitHub Actions status | e2e-boilerplate/testcafe-commonjs](https://github.com/e2e-boilerplate/testcafe-commonjs/workflows/testcafe-commonjs-assert/badge.svg)](https://github.com/e2e-boilerplate/nightwatch-commonjs-assert/actions?workflow=nightwatch-commonjs-assert) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Buy Me A Coffee](https://img.shields.io/badge/buy-me%20coffee-orange)](https://www.buymeacoffee.com/xgirma)
+[![GitHub Actions status | e2e-boilerplate/testcafe-commonjs](https://github.com/e2e-boilerplate/testcafe-commonjs/workflows/testcafe-commonjs/badge.svg)](https://github.com/e2e-boilerplate/testcafe-commonjs/actions?workflow=testcafe-commonjs) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Buy Me A Coffee](https://img.shields.io/badge/buy-me%20coffee-orange)](https://www.buymeacoffee.com/xgirma)
 
 # TestCafe Boilerplate
 
