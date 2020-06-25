@@ -52,7 +52,7 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "npx testcafe chrome spec/sandbox.spec.js"
+    "test": "npx testcafe -e spec/sandbox.spec.js"
   },
   "version": "1.0.0"
 }
