@@ -1,11 +1,11 @@
 const { Selector } = require("testcafe");
 
-fixture`Sandbox`.page`https://e2e-boilerplate.github.io/sandbox/`;
+fixture`Sandbox`.page`https://www.google.com/`;
 
 test("should be on Sandbox", async (t) => {
   await t
     .expect(Selector("title").innerText)
-    .eql("Sandbox")
+    .eql("Google")
     .expect(Selector("h1").innerText)
-    .eql("Sandbox");
+    .eql("Google");
 });
