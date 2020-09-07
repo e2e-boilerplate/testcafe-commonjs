@@ -2,7 +2,7 @@
     
 # TestCafé Boilerplate
     
-TestCafé end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html).. Clone or fork this repository.
+TestCafé end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html). Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/testcafe-commonjs.git
