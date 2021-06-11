@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/testcafe-commonjs/issues"
   },
   "dependencies": {
-    "testcafe": "13.1.1"
+    "testcafe": "15.1.2"
   },
   "description": "TestCafé end-to-end test automation boilerplate. Using Commonjs.",
   "devDependencies": {
